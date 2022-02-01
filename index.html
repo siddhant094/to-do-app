@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 2px 2px;
+        }
+
+        .strikeText {
+            text-decoration: line-through;
+        }
+
+        .editInput {
+            flex-grow: 1;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .btnStyle {
+            height: 42px;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <label for="input">Enter your task: </label>
+    <input name="todoName" type="text" id="input" />
+    <button id="addBtn">Add</button>
+    <div class="parentDiv"></div>
+    <!-- <a href="https://icons8.com/icon/oR5tfd18Ei7C/edit">Edit icon by Icons8</a> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
