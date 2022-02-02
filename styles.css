@@ -1,0 +1,57 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import 'https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap';
+
+body {
+    background-color: #F1FAEE;
+    min-height: 100vh;
+}
+
+.items {
+    margin: auto !important;
+    margin-bottom: 24px !important;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    margin: 5px;
+    padding: 2px 2px;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding: 0 0 !important;
+    background-color: #A8DADC !important;
+}
+
+.strikeText {
+    text-decoration:line-through;   
+}
+
+.editInput {
+    flex-grow: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkbox {
+    margin-left: 8px;
+}
+
+.parentDiv {
+    display: block !important;
+}
+
+.myNavbar {
+    /* background-color: bisque; */
+    background-color: #A8DADC;
+}
+
+.headingFont {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2em;
+    color: black;
+    padding-left: 15px;
+}
