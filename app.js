@@ -1,6 +1,7 @@
 const userInput = document.querySelector('#input');
 const addBtn = document.querySelector('#addBtn');
 addBtn.classList.add('button', 'is-info'); //'is-rounded');
+addBtn.parentElement.parentElement.classList.add('is-mobile');
 const parentDiv = document.querySelector('.parentDiv');
 const taskList = [];
 
@@ -22,6 +23,7 @@ addBtn.addEventListener('click', function () {
     childDiv.append(todoDiv);
     todoDiv.innerText = taskList[taskList.length - 1];
     parentDiv.append(childDiv);
+    parentDiv.classList.add('is-mobile');
     let buttons = document.createElement('div');
     buttons.classList.add('buttons');
     childDiv.append(buttons);
